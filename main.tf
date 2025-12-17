@@ -1,6 +1,5 @@
 terraform {
   required_version = ">= 1.5.0"
-  #test change
   required_providers {
     null = {
       source  = "hashicorp/null"
@@ -16,3 +15,6 @@ resource "null_resource" "example" {
     example = "hello-from-terraform"
   }
 }
+#test
+# apply test
+# apply test
